@@ -1,0 +1,12 @@
+.section-follow .fa-4x {
+  margin: 5px 10px;
+}
+
+.slider .slides {
+    background-color: black;
+}
+
+.slider .slides li img {
+    opacity: 0.7;
+}
+
