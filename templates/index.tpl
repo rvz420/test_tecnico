@@ -28,16 +28,16 @@
 
           <ul class="right hide-on-med-and-down">
             <li>
-              <a href="#">lorem</a>
+              <a href="#">Home</a>
             </li>
             <li>
-              <a href="#">ipsum</a>
+              <a href="#tryit">Try it now</a>
             </li>
             <li>
-              <a href="#">dolor</a>
+              <a href="#technologies">Our technologies</a>
             </li>
             <li>
-              <a href="#">sit</a>
+              <a href="#social">get in touch</a>
             </li>
           </ul>
         </div>
@@ -47,16 +47,16 @@
 
   <ul class="sidenav" id="mobile-nav">
     <li>
-      <a href="#">lorem</a>
+      <a href="#">Home</a>
     </li>
     <li>
-      <a href="#">ipsum</a>
+      <a href="#tryit">Try it now!</a>
     </li>
     <li>
-      <a href="#">dolor</a>
+      <a href="#technologies">Our technologies</a>
     </li>
     <li>
-      <a href="#">sit</a>
+      <a href="#social">get in touch</a>
     </li>
   </ul>
 
@@ -89,7 +89,7 @@
   </section>
 
   <!--Section: get started-->
-  <section class="section section-get-started indigo lighten-1 white-text center">
+  <section id="tryit" class="section section-get-started indigo lighten-1 white-text center">
     <div class="container ">
       <div class="row">
         <div class="col s12 m8">
@@ -101,7 +101,7 @@
         <div class="col s12 m4">
           <br>
           <br>
-          <a class="waves-effect waves-light white indigo-text btn-large">
+          <a id="btnLearnMore"class="waves-effect waves-light white indigo-text btn-large">
             <i class="material-icons left">send</i>Learn More</a>
         </div>
       </div>
@@ -162,12 +162,12 @@
 
   <!--Section: Follow-->
 
-  <section class="section section-follow indigo darken-2 white-text center">
+  <section id="social" class="section section-follow indigo darken-2 white-text center">
     <div class="container">
       <div class="row">
         <div class="col s12">
           <h4>Follow us</h4>
-          <p>Follow us on social media for special offers</p>
+          <p>Follow us on social media</p>
           <a href="#" class="white-text">
             <i class="fab fa-facebook fa-4x"></i>
           </a>
@@ -185,9 +185,51 @@
     </div>
   </section>
 
+  <!--Section: Contact-->
+
+  <section id="contact" class="section section-contact scrollspy">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card-panel indigo white-text center">
+            <i class="material-icons medium">email</i>
+            <h5>Contact Us</h5>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus sed praesentium delectus. Sit, mollitia
+              quo. Veniam repellat voluptas ipsum doloremque?</p>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card-panel grey lighten-3">
+            <h5>Please fill out this form</h5>
+            <div class="input-field">
+              <input type="text" placeholder="Name" id="name">
+              <label for="name">Name</label>
+            </div>
+            <div class="input-field">
+              <input type="email" placeholder="Email" id="email">
+              <label for="email">Email</label>
+            </div>
+            <div class="input-field">
+              <textarea class="materialize-textarea" placeholder="Enter Message" id="message"></textarea>
+              <label for="message">Message</label>
+            </div>
+            <input type="submit" value="Submit" class="btn indigo">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="section indigo darken-2 white-text center">
+    <p class="flow-text">rvdev &copy; 2018</p>
+  </footer>
+
   <!--JavaScript at end of body for optimized loading-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/consts.js"></script>
+  <script src="js/pRender.js"></script>
 </body>
 
 </html>
